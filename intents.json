@@ -1,0 +1,559 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-) Welcome to Vardhaman College Engineering -VardhaGenie ",
+        "Hello, thanks for visiting VCE   -VardhaGenie ",
+        "Hey hi from VCE -VardhaGenie",
+        "Hi there, how can I help about VCE? -VardhaGenie"
+      ]
+    },
+    {
+      "tag":"pricipal",
+      "patterns":["who is the pricipal of the college","Principal name","name of the pricipal"],
+      "responses":["Our College principal is: Dr. JVR Ravindra E-Mail: principal@vardhaman.org "]
+    },
+    {
+      "tag":"HOD",
+      "patterns":["what is the name of CSE HOD ","What is the name of ECE HOD ","what is the name EEE HOD","What is the name of CIVIL HOD","What is the name MECH HOD","what is the name of AIML HOD"],
+      "responses":["Names of our HODs are: CSE:Dr. Ramesh Karnati ECE:DR.P.Nageshwar Rao EEE:Dr. N. Karuppiah CIVIL:Dr. P. Venkata Koteswara Rao MECH: Dr. P. Venkateshwar Reddy AIML:Dr. M. A. Jabbar"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting VCE",
+        "Have a nice day, thanks for visiting VCE",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "My pleasure! hope you join VCE© soon", "See you soon in VCE© (ʘ ͜ʖ ʘ)", "Any time! and VCE© is waiting for you to join(◔◡◔)"]
+    },
+    {"tag": "student login",
+      "patterns" : [ 
+         " How can i login to student portal",
+         "How can i check my attendance",
+         "student login",
+         "Student portal",
+         " How can i check my credit register"
+      ],
+     "responses" : [
+        " You can check all the details by logging into the student portal. Just <a href='https://studentscorner.vardhaman.org/' target='_blank'>click here</a>. "
+       ]
+    },
+    {
+      "tag":"results",
+      "patterns":["how can i check results", "results", "semister results"],
+      "responses":["you can check results at. Just <a href='https://vardhaman.org/results/' target='_blank'>click here</a>."]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "How many students are placed?",
+        "What is the average package?",
+        "What is the placement rate ?",
+        "What is the median package of B.Tech at Vardhaman College of Engineering?",
+        "Does Vardhaman College of Engineering provide good placement facilities?"
+      ],
+      "responses": [
+        "Around 80% of students get placed in our course because it is a new course. Many opportunities are provided in our course. The highest salary package offered is 25 LPA, the lowest salary package is 3 LPA, and the average salary package is 5 LPA. The recruiting companies are Tech Mahindra and Microsoft. Around 80% of students get internships in our course.",
+        "Almost 85% of students got placed in different companies. The highest salary package offered is 55 LPA. The average salary package offered is 5 LPA. The lowest salary package offered is 3 LPA. Top recruiting companies are Amazon, TCS, Capgemini, Cognizant, etc. Almost 70% of students got internships from our college at Infosys, Tech Mahindra, Oracle, etc.",
+        "The placements are one of the best in our college. The number of students placed is around 80 percent. The average package is 5 Lacs per annum. Moreover, the placement cell ensures to get everyone placed or being part of the placement season. The companies like Deloitte, tcs, ADP, etc. Has come to our college for placements.",
+        "80% of students have got placed in various companies related to a variety of fields. The highest package offered was 50LPA, the lowest was 3LPA and the average is about 5LPA. Companies like TCS, Infosys, Wipro, LTI Mindtree, Cognizant, Capgemini, Accenture, Amazon, Flipkart, etc. Were the major recruiters. More than 40% of the students have got internships in several companies like BHEL, BDL, TCS, Riktam Technologies, etc. The top roles offered to any student in my course are Software Development Engineer and Associate Software Engineer."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "how can we pay the college fee",
+        "Do you accept credit cards for college fee payment?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal",
+        "do you accept only cash for fee payment?",
+        "what are the options for paying college fee",
+        " Mode of payment of college fee"
+      ],
+      "responses":
+      [
+        "We accept Cash,VISA, Mastercard and UPI ($_$)",
+        "We accept most major credit cards, UPI and cash ($_$)"
+      ]
+    },
+    {
+      "tag": "Infrastructure",
+      "patterns": [
+        "college infrastructure?",
+        "How is the college infrastructure ?",
+        "How does the college infrastructure affect the student learning experience?"
+      ],
+      "responses": [
+        "The infrastructure of our college is the best. Our college has a good atmosphere. All the drawing halls, classrooms, laboratories, engineering workshops, seminar halls, sports rooms, indoor games, and a library are available in our college. The library is an independent building with a huge number of books sharing lots of knowledge. There are separate hostels for girls and boys, which can accommodate over 300 students. The hostel students can avail of all necessary facilities like Wi-Fi, a television, air-conditioned rooms, and yoga sessions. Food served is good and we have the best hostel ever.",
+        "Laboratory and infrastructure of our college were good. Students can use laboratories for their research and learning purposes. The quality of the facilities in the hostel was good. The quality of the food was very good.",
+        "The classrooms are highly modernised and decent in their kind. The campus is quite bigger and has a good security in it. The cafeteria has one of the best food and is the source of lunch to many people. There is a separate department for medical concern. Sports and games are not daily part of curriculum but are invoked when selections are made for competitions.",
+        "There are six blocks. Infrastructure and facilities are well-developed in each block. There are two auditoriums and a library with a very peaceful environment for students. There is an indoor stadium for different sports. There is a separate cricket stadium for students."
+      ]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "What is the role of faculty in student advising?",
+        "How is the faculty of the college",
+        "What are the teaching styles of the faculty?"
+      ],
+      "responses": [
+        "Teachers in our college are helpful, well-qualified, and knowledgeable. Teaching quality is great. Our college provides good education but less freedom.",
+        "All faculty members are very dedicated and experts in their fields. They are very friendly. They graduated from top universities. The course curriculum is easy to understand and gain practical knowledge. Industrial visits make us explore more. Semester exams are conducted in our college.",
+        "The teachers in our course are very knowledgeable and also helpful. Many of the teachers are qualified PhDs in our college. The teaching quality is highly efficient. Our course curriculum is mostly related to industrial-level knowledge. The semester exams are always quite challenging. Scoring well in all exams is a hard row to hoe. The pass percentage is 70%.",
+        "Our faculty members are excellent with students. They are well-experienced and knowledgeable. The course curriculum is useful for students to be industry-ready."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "How is the college hostel",
+        "What is the  college hostel fee ?",
+        "What is the capacity of the hostel?",
+        "How is the food in the hostel?"
+      ],
+      "responses": [
+        "The Hostel rooms and food are also hygienic and The fee structure of the hostel is Rs. 1,50,000. The hostel provides good food with free WiFi. The hostel also has playgrounds of differen games. ",
+        "We have a huge Hostel seperate for boys and Girls. Hostel facility is available in our college with a fee of 1.50 lakhs. Hostel food is good. Hostel provides a hot water facility, a playground, and a badminton court.And The fee structure of the hostel is Rs. 1,50,000"
+        
+      ]
+    },
+    {
+      "tag": "fee structure",
+      "patterns": [
+        "fee of the college",
+        "What is the fee structure of the college",
+        "What are the different types of fees that students are required to pay?"
+      ],
+      "responses": [
+        "B.E. / B.Tech  ->   5 L - 5.6 L  ->   10+2 : 45 %->   Exams : TS EAMCET \n MBA/PGDM  ->   90 K  ->    Graduation : 50 %->  Exams : TSICET \n M.E./M.Tech  ->     1.2 L        ->     Graduation : 50 %->   Exams : GATETS PGECET ",
+        "B.Tech - 1.5L, M.Tech-1.2L, MBA-90K /per Annum"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "How is the Library",
+        "How can I access online resources through the library?",
+        "Can I get help from a librarian with my research?",
+        "Does the library have group study rooms?"
+      ],
+      "responses": [
+        "We have huge library with diifernts collection of books with study rooms.And also have computers and free WiFi to access internet",
+        "The library is an independent building. It has a huge number of books. It provides us with much knowledge.And also have computers and free WiFi to access internet.",
+        " The library has 3,000 books.around 50 computers with free WiFiand 10 member staff and with a 4 group study rooms"
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "How is the canteen",
+        "What are the hours of operation for the canteen?",
+        "What are the different types of food that the canteen offers?",
+        "Does the canteen accept cash or cards?"
+      ],
+      "responses": [
+        "The canteen has high hygiene standards and follows all food safety regulations.Canteen hours are from 9 to 4 where you can have breakfast and lunch all type tiffins are avilabe with a resonable prices and You can pay for your food with cash only",
+        "The canteen is generally quiet during the day and gets louder in the evening.You can pay for your food with cash only",
+        "The canteen has high hygiene standards and follows all food safety regulations.The food in the canteen is sourced from local vendors and is prepared fresh daily.And You can pay for your food with cash only"
+      ]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "Does college has playground",
+        "What are the different sports offered at the college?",
+        "Where can I find information about the history of each sport at the college?",
+        "Is there a dress code for attending games?"
+      ],
+      "responses": [
+        "Our College has huge Playground and offers a wide variety of sports, including football, basketball, baseball, softball, soccer, track and field, swimming and diving, tennis, golf, and volleyball.The levels of competition for each sport vary, but most colleges offer both varsity and club sports. Varsity sports are the highest level of competition, while club sports are typically recreational.",
+        "Our College has huge Playground and The head coach for each sport can be found on the college's athletics website.The team's record for each sport can also be found on the college's athletics website.The schedule for upcoming games for each sport can be found on the college's athletics website or on a dedicated sports website.Information about the history of each sport at the college can be found on the college's athletics website or in the college archives.Tickets to games for each sport can be purchased online, at the box office, or at local sporting goods stores.",
+        "The different intramural sports offered at the college can be found on the college's recreation website.The registration deadlines for intramural sports will vary, but they are typically a few weeks before the season starts.The fees for participating in intramural sports will vary, but they are typically around $20 per team.The rules for participating in intramural sports will vary depending on the sport, but they typically include having a team of at least 5 players and forfeiting if you are not present for a game.The prizes for winning intramural sports will vary, but they typically include trophies, t-shirts, or gift cards."
+      ]
+    },
+    {
+      "tag": "laboratory",
+      "patterns": [
+        "How is the laboratory",
+        "What are the different types of labs available at the college?",
+        "What are the rules and regulations for using the labs?",
+        "How can I get help with the lab assignments?"
+      ],
+      "responses": [
+        "The college offers a variety of labs, including science labs, computer labs, and engineering labs.The lab hours for different subjects vary, but in general, labs are open from 8:00 AM to 06:00 PM.The rules and regulations for using the labs are generally the same for all subjects. Students must wear appropriate attire, follow safety procedures, and not interfere with other students' work.",
+        "The location of the lab for your subject can be found on the college's website or in the lab schedule.The lab procedures for your subject will be provided by your instructor. These procedures typically outline the steps involved in conducting the lab experiments.The lab safety procedures for your subject will also be provided by your instructor. These procedures typically outline the precautions that must be taken to protect students from injury.",
+        "Yes, there are lab tutors available. The lab tutoring center is typically located in the library or another central location on campus. Tutoring sessions are usually scheduled on a walk-in basis, but you can also schedule an appointment in advance.You should always ask the instructor or a lab tutor for help when using lab equipment.",
+        "The format and style requirements for lab reports will be specified in your course syllabus.You should include the following elements in your lab report: an introduction, experimental procedure, results, discussion, and conclusion.The due dates for lab reports will be specified in your course syllabus.You can get help with writing your lab reports by consulting with your instructor, attending study sessions, or reviewing online resources.Yes, you can submit lab reports electronically. The specific instructions for submitting reports electronically will be provided by your instructor."
+      ]
+    },
+    {
+      "tag": "Events",
+      "patterns": [
+        "What are the different types of events that are held at the college?",
+        "How do I register for the event?",
+        "What are the different volunteer opportunities available?"
+      ],
+      "responses": [
+        "The college offers a wide variety of events, including lectures, concerts, workshops, seminars, and sporting events.The organizers of the events vary depending on the event, but they may include student organizations, faculty members, or the college administration.Events are held at a variety of locations on campus, including the student union, the library, the theater, and outdoor spaces.You can find out about upcoming events by checking the college website, subscribing to the college's calendar, or following the college on social media.You can register for events online, at the event location, or by contacting the event organizer.",
+        "Whether or not you need to register for the event will be specified in the event description.You can register for events online, at the event location, or by contacting the event organizer.The registration deadline will be listed on the event flyer, website, or social media post.Whether or not there is a fee to register for the event will be specified in the event description.The refund policy for the event will be listed on the event flyer, website, or social media post.You can find the contact information for the event organizer on the event flyer, website, or social media post.",
+        "Our college conducts a variety of events. You can find out about volunteer opportunities by checking the college website, subscribing to the college's newsletter, or contacting the event organizer.The different volunteer opportunities available will vary depending on the event.The requirements for volunteering will vary depending on the event.You can sign up to volunteer by contacting the event organizer.The benefits of volunteering include gaining experience, making connections, and giving back to the community."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located ?",
+        "college is located at ?",
+        "location of the college ?",
+        "address of college?"
+      ],
+      "responses": [
+        "Location of our College is: Kacharam, shamshabad, 501218",
+        "college is at kacharam, shamshabad, 501218"
+      ]
+    },
+    {
+      "tag": "bus",
+      "patterns": [
+        "Bus facility to reach college",
+        "how many bus are avilabe ?",
+        "From where to where college bus are there",
+        "how much bus fee"
+      ],
+      "responses": [
+        " Our College has RTC route with a bus for every one hour And our colege also offer buses for all the requried students, the route map will be said by the college in the administration office you can get track of your bus such that you can be ready when the bus ariving to your home Fee will be same for all the rote it will be around 40000 and it has ac facility in bus"
+      ]
+    },
+    {
+      "tag": "companies",
+      "patterns": [
+        "How many companies will come",
+        "What companies visit the college",
+        "what companies will come to college"
+      ],
+      "responses": [
+        "Vardhaman College of Engineering is known for its excellent placements and its strong industry ties. The college has a dedicated Training and Placement Cell that works closely with students to prepare them for placements. The cell also organizes workshops and seminars to help students learn about the latest industry trends and to develop their skills.These companies offered a variety of roles to students, including software engineering, data science, machine learning, artificial intelligence, analytics, finance, marketing, and operations.",
+        "Vardhaman College of Engineering is a great choice for students who are looking for a college with a strong placement record. The college offers a variety of engineering and management programs, and it has a reputation for producing highly skilled and employable graduates.",
+        "The placement season at Vardhaman College of Engineering was a success, with over 80% of eligible students getting placed in reputed companies. The average salary package offered was around 5 LPA, with the highest salary package offered being 14 LPA.IBM,Tech Mahindra,Accenture,Salesforce,Oracle"
+      ]
+    },
+    {
+      "tag": "package offered",
+      "patterns": [
+        "What is the average package",
+        "package is depend on which criteria",
+        "minimum and maximum package"
+      ],
+      "responses": [
+        "The average salary package offered to students at Vardhaman College of Engineering in 2023 was around 5 LPA, with the highest salary package offered being 14 LPA. The packages offered varied depending on the company and the student's branch of study. For example, students in the Computer Science and Engineering branch received the highest average salary package, followed by students in the Electronics and Communication Engineering and Mechanical Engineering branches."
+      ]
+    },
+    {
+      "tag": "it companies",
+      "patterns": [
+        "what it companies will visit our college",
+        "which companies will come to college",
+        "how much salary we can expect from it companies"
+      ],
+      "responses": [
+        "IT companies like  Google, Microsoft, Amazon , Salesforce, Accenture, Wipro, Atlassian, IBM, Oracle, SAP,Cisco Systems and a lot more companies will visit our college which pay competitive packages ranging from 3LPA to 50LPA "
+      ]
+    },
+    {
+      "tag": "core companies",
+      "patterns": [
+        "what are core compaines that visit our college",
+        "what are core companies will come to college",
+        "what is the package of the core companies"
+      ],
+      "responses": [
+        "Larsen & Toubro, Advance Auto parts, Bharat Heavy Electricals Limited (BHEL), National Thermal Power Corporation (NTPC), Coal India Limited, Reliance Industries Limited, Tata Motors and lot more companies visit our college. And offer competitive package range from 10LPA to 50LPA"
+      ]
+    },
+    {
+      "tag": "industry expose",
+      "patterns": [
+        "What are the benefits of industry expose for college students?",
+        "How can I find industry expose opportunities?",
+        "What are some different types of industry expose programs?"
+      ],
+      "responses": [
+        "Industry exposure programs provide students with the opportunity to apply their classroom knowledge to real-world scenarios, enhancing their practical skills and understanding of the industry.",
+        "These programs offer a chance to network with industry professionals, building relationships that can lead to future job opportunities or mentorships.",
+        "Industry exposure programs allow students to explore different career paths within their chosen field, helping them narrow down their interests and potential career goals.Participation in industry exposure programs can strengthen a student's resume and portfolio, making them more competitive for internships and jobs upon graduation."
+      ]
+    },
+    {
+      "tag": "technical Events",
+      "patterns": [
+        "What are the benefits of attending technical Events",
+        "What are the different types of technical Events",
+        "Why are technical Events important for students?"
+      ],
+      "responses": [
+        "Technical Events are large-scale events organized by our college to showcase the latest innovations and advancements in science, technology, engineering, and mathematics (STEM) fields. We provide a platform for students, professionals, and enthusiasts to explore emerging technologies, participate in competitions, network with peers, and gain exposure to the latest trends in the industry.",
+        "By participating in technical Events, students can explore various career paths and potential fields of interest within STEM, helping them narrow down their career aspirations.Technical festivals often feature workshops, competitions, and demonstrations that allow students to apply their knowledge and skills in a practical setting, enhancing their technical expertise.        ",
+        "Participate in workshops, competitions, and hands-on activities to refine technical skills and problem-solving abilities.Connect with research teams and professors to gain insights into current research projects and potential research opportunities."
+      ]
+    },
+    {
+      "tag": "curriculam",
+      "patterns": [
+        "What is the major and a minor course?",
+        "What are the core courses",
+        "What are the elective courses"
+      ],
+      "responses": [
+        "A major and a minor are both academic programs that students can pursue at colleges and universities. However, they differ in their scope and focus.",
+        "Core courses are the foundational classes that students must take in order to complete their degree program. They are designed to provide students with a broad understanding of the subject matter and to prepare them for more advanced coursework. Core courses are usually required for all students in a particular major, regardless of their specific interests or career goals.",
+        "Elective courses are the courses that students choose to take in addition to their core courses. They are designed to allow students to explore their interests, develop specialized skills, or prepare for a particular career path. Elective courses can be chosen from a wide range of disciplines, including the arts, humanities, sciences, social sciences, and professional fields."
+      ]
+    },
+    {
+      "tag": "autonomous college",
+      "patterns": [
+        "What is an autonomous college?",
+        "What are the benefits of attending an autonomous college?",
+        "How do autonomous colleges maintain high academic standards?"
+      ],
+      "responses": [
+        "An autonomous college is a higher education institution that has a high degree of self-governance and independence from its parent university or university system. This means that autonomous colleges have the freedom to make their own decisions about curriculum, faculty hiring, and other matters that typically fall under the purview of the parent institution.",
+        "Autonomous colleges typically enjoy greater flexibility in their approach to education, allowing them to innovate and adapt to the needs of their students and the community. They may also have more resources to invest in faculty development, research, and student support services.",
+        "Autonomous colleges and non-autonomous colleges differ in terms of their governance structure, decision-making authority, and level of independence.Autonomous colleges have the flexibility to pursue international partnerships, exchange programs, and study abroad opportunities. They can connect with institutions worldwide, providing students with the chance to study abroad, gain global exposure, and enhance their cross-cultural understanding."
+      ]
+    },
+    {
+      "tag": "course structure",
+      "patterns": [
+        "How is the course structured?",
+        "What is the format of the course ",
+        "How can my academic advisor help me plan my course"
+      ],
+      "responses": [
+        "The course structure at Vardhaman College of Engineering is designed to provide students with a strong foundation in engineering principles and skills. The curriculum is constantly reviewed and updated to ensure that it meets the needs of industry and the changing landscape of engineering.",
+        "The course structure at Vardhaman College of Engineering is designed to provide students with the knowledge and skills they need to be successful in their careers. The curriculum is rigorous and challenging, but it is also rewarding. Students who graduate from Vardhaman College of Engineering are well-prepared to enter the workforce and make a positive contribution to society."
+      ]
+    },
+    {
+      "tag": "medical facility",
+      "patterns": [
+        "Does our college has medical facility",
+        "how many doctors are there",
+        "what facilities are there for medical",
+        "are there sick rooms in college"
+      ],
+      "responses": [
+        "Vardhaman College of Engineering has a medical facility on campus. The facility is staffed by two doctors, Dr. Chandrika Reddy, a general physician, and Dr. B Divya, a neuropsychiatrist. The medical facility is open during working hours, and an ambulance is available to take sick people to the hospital in case of an emergency.",
+        "The medical facility is also responsible for conducting seminars on neuro-psychiatry and psychology for all students.In addition to the medical facility on campus, Vardhaman College of Engineering also has a tie-up with a nearby hospital. This means that students and staff have access to a wider range of medical services if needed."
+        
+      ]
+    },
+    {
+      "tag": "cricket ground",
+      "patterns": [
+        "capacity of cricket ground",
+        "does our college has cricket ground"
+      ],
+      "responses": [
+        "Yes, there is a Huge cricket ground located in the heart of the campus and is easily accessible to all students and staff. It is a full-fledged turf pitch, floodlit stadium, with a capacity of over 10,000 spectators. The ground is well-maintained and has hosted many inter-collegiate and professional cricket matches. "
+      ]
+    },
+    {
+      "tag": "indore games",
+      "patterns": [
+        "indore games are avilabe in college",
+        "does our college has indore stadium",
+        "capacity of indore games"
+      ],
+      "responses": [
+        "Yes, our college has huge indoor stadium with all games available in it. The Indore Games are a valuable opportunity for students from Vardhaman College of Engineering to compete at a high level and represent their college. The games also help to promote physical fitness and sportsmanship among students."
+      ]
+    },
+    {
+      "tag": "playground",
+      "patterns": [
+        "Does our college has play ground",
+        "play ground is there in college",
+        "timmings for palying in the ground",
+        "what are different sprots are in the playground"
+      ],
+      "responses": [
+        "The playground is a valuable asset to Vardhaman College of Engineering and is a great place for students to have fun and get some exercise. Vardhaman College of Engineering has  different playgrounds that are  located inside the  campus. The playground is well-maintained and has a variety of equipment for students"
+      ]
+    },
+    {
+      "tag": "annual day",
+      "patterns": [
+        "college will condact any anual day program",
+        "how many days will be  thae anual day",
+        "annual day"
+      ],
+      "responses": [
+        "The annual day of Vardhaman College of Engineering, also known as ORTUS, is a grand celebration of the college's achievements and the talents of its students. The event is held in the month of March or April every year and attracts a large number of participants and spectators. ",
+        "ORTUS features a variety of events, including dance performances, singing competitions, skits, and fashion shows. The event also includes a cultural parade, where students from different departments showcase their traditional attire and dance forms.",
+        "ORTUS is a major event in the college calendar and is a source of pride for the college community. The event is a great opportunity for students to showcase their talents and to interact with each other."
+      ]
+    },
+    {
+      "tag": "cultural days",
+      "patterns": [
+        "Does our college conduct cultural events",
+        "How many days will they conduct cultural events",
+        "what kind of cultural festivals are held",
+        "how many festivals will they conduct"
+      ],
+      "responses": [
+        "The cultural festival of Vardhaman College of Engineering is known as ORTUS, which means Rising Sun which will be conducted for 1 week. It is a two-day event that is held in the month of March or April every year. The festival features a variety of events, including dance performances, singing competitions, skits, and fashion shows. The event also includes a cultural parade, where students from different departments showcase their traditional attire and dance forms. "
+      ]
+    },
+    {
+      "tag": "placement process",
+      "patterns": [
+        "what is the process of placement",
+        "how they will take students",
+        "what is the placement process"
+      ],
+      "responses": [
+        "The Training and Placement Cell at Vardhaman College of Engineering provides students with a number of resources to help them prepare for placements.Placement training workshops,Mock interviews,Resume review,Industry connect",
+        "Vardhaman College of Engineering has a good placement record. In 2023, over 80% of eligible students were placed in reputed companies. The average salary package offered was around 5 LPA, with the highest salary package offered being 14 LPA."
+      ]
+    },
+    {
+      "tag": "research projects",
+      "patterns": [
+        "What are the different types of research projects done in the college?",
+        "What are the key steps involved in conducting a research project?",
+        "What resources are available to me to support research project in college?"
+      ],
+      "responses": [
+        "Vardhaman College of Engineering has a strong research culture and encourages its faculty and students to undertake research projects. The college has a number of well-equipped research laboratories and provides its researchers with the necessary support and resources.        ",
+        "The research projects at Vardhaman College of Engineering are addressing some of the most important challenges facing the world today. The research findings from these projects have the potential to make a significant impact on society.",
+        "Vardhaman College of Engineering has a number of research collaborations with other universities and research institutions in India and abroad. The college also receives funding from various government and non-government agencies to support its research activities.        "
+      ]
+    },
+    {
+      "tag": "smart classrooms",
+      "patterns": [
+        "Does our college has smart class rooms",
+        "What kind of technology is used in the smart classroom?",
+        "How is the learning space designed to facilitate engagement with the technology?",
+        "How are assessments conducted in the smart classroom environment?"
+      ],
+      "responses": [
+        "The smart classrooms are designed to provide students with a more engaging and interactive learning experience. The interactive whiteboards allow teachers to create and display dynamic presentations, and the audio-visual systems allow teachers to play videos and other multimedia content. The computers in the smart classrooms allow students to access the internet and to use educational software.",
+        "the smart classrooms at Vardhaman College of Engineering are a valuable asset to the college and its students. They have helped to improve the quality of teaching and learning, and they are preparing students for the future workplace",
+        "The smart classrooms have helped to improve the quality of teaching and learning at Vardhaman College of Engineering. Students are more engaged and motivated in the smart classrooms, and they are able to learn more effectively.        "
+      ]
+    },
+    {
+      "tag": "auditoruim",
+      "patterns": [
+        "how many people can sit in auditoruim",
+        "what is the capacity of the auditorium",
+        "what kind of events are conducted in auditoruim"
+      ],
+      "responses": [
+        "Vardhaman College of Engineering has two auditoriums, one with a seating capacity of 1200 and the other with a seating capacity of 600. Both auditoriums are air-conditioned and soundproof. They are equipped with modern audiovisual equipment, including projectors, screens, and sound systems. The auditoriums are used for a variety of events, including lectures, seminars, conferences, and cultural programs. The larger auditorium is used for large events, such as convocation ceremonies and guest lectures by prominent speakers. The smaller auditorium is used for smaller events, such as departmental seminars and student presentations. Both auditoriums are well-maintained and provide a comfortable and conducive environment for events.",
+        "Vardhaman College of Engineering has two auditoriums, a 1200-seater and a 600-seater. The 1200-seater auditorium is called the Mega Auditorium, and it is located in the main building of the college. The 600-seater auditorium is called the AC Auditorium, and it is located in the library building. "
+      ]
+    },
+    {
+      "tag": "internet access",
+      "patterns": [
+        " Does our college has internet access",
+        "college will provide free wifi",
+        "can we search for resore papers etc through internt",
+        "students can acess to internet in the college"
+      ],
+      "responses": [
+        "Vardhaman College of Engineering provides free Wi-Fi access to all students, faculty, and staff. The Wi-Fi network is available throughout the campus, including in classrooms, libraries, laboratories, and residential halls.",
+        "The Wi-Fi network is powered by dedicated leased lines of 1500 MBPS (1300 MBPS from INet Fiber Ltd and 200 MBPS from Reliance Jio InfoCom Ltd). The network is secure and uses WPA2 encryption. The Wi-Fi network is a valuable resource for students, faculty, and staff. It allows them to connect to the internet anywhere on campus, which is essential for research, learning, and communication."
+      ]
+    },
+    {
+      "tag": "gym",
+      "patterns": [
+        "Does hostel has GYM",
+        "What are the gym's hours of operation?",
+        "What are the gym's policies on personal hygiene and etiquette?",
+        "Does the gym offer personal training services?"
+      ],
+      "responses": [
+
+        "Vardhaman College of Engineering has a well-equipped gym that is open to all students, faculty, and staff. The gym is located in the sports complex on campus.",
+        "The gym is open from 6am to 10pm, seven days a week. There are trained instructors available to provide guidance and assistance.The gym is a great place for students, faculty, and staff to get in shape and stay healthy. It is a valuable resource that is available to everyone on campus."
+      ]
+    },
+    {
+      "tag": "boys hostel",
+      "patterns": [
+        "Does our college has boys hostel",
+        "What types of rooms are available in the hostel?",
+        "Are there attached bathrooms in the rooms?",
+        "Is there internet access in the hostel?"
+      ],
+      "responses": [
+
+        "Vardhaman College of Engineering has a separate boys hostel that can accommodate up to 300 students. The hostel is located on campus and is within walking distance of all academic buildings.",
+        "Vardhaman College of Engineering is a great place for students who are looking for a challenging and rewarding academic experience. The college provides students with the opportunity to learn from experienced faculty, to conduct research in state-of-the-art facilities, and to develop the skills and knowledge they need to succeed in their careers. The college is also committed to providing its students with a well-rounded education. In addition to academics, the college offers a variety of extracurricular activities, such as sports, clubs, and cultural events. These activities help students to develop their social skills, leadership skills, and teamwork skills."
+        ]
+    },
+    {
+      "tag": "girls hostel",
+      "patterns": [
+        "What types of rooms are available in the hostel?",
+        "Does our college has girls hostel",
+        "Is there internet access in the hostel?"
+      ],
+      "responses": [
+
+        "The girls hostel at Vardhaman College of Engineering (VCE) is a safe and comfortable place for students to live. The hostel is located on campus and is within walking distance of all academic buildings. The hostel rooms are well-equipped with all the necessary amenities, including single beds, study tables, chairs, wardrobes, storage space, and attached bathrooms. The hostel also has a number of common facilities, such as a dining hall, TV room, reading room, laundry room, gymnasium, sports facilities, indoor games, outdoor games, and a medical facility. The hostel is managed by a team of experienced wardens who ensure that the hostel is a safe and comfortable place for students to live.        ",
+        "The girls hostel at Vardhaman College of Engineering (VCE) is a safe and comfortable place for students to live. The girls hostel at VCE is committed to providing students with a safe, comfortable, and supportive environment where they can thrive. The hostel staff is always available to help students with their needs and to ensure that they have a positive college experience.        "
+      
+      ]
+    },
+    {
+      "tag":"ragging",
+      "patterns":[
+              "ragging",
+              "is ragging practice active in college",
+              "is there any ragging cases",
+              "is ragging done here",
+              "ragging juniors"
+              
+      ],
+      "responses": [
+              "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+      ]
+
+},
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

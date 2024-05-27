@@ -1,0 +1,30 @@
+def arg(*args):  #parameter that pack all argments into a tuple
+    sum=0
+    args=list(args)
+    args[0]=0
+    for i in args:
+        sum+=i
+    return sum
+print(arg(1,2,3))
+
+def kwarg(**kwargs):      #only '**' is imp name can be anything #parameter that packs all arguments into dictionary
+    print('Hello',end=' ')
+    for key,values in kwargs.items():
+        print(values,end=' ')
+print(kwarg(fname='Prashanth',lastname='Tellakula'))
+
+#----------------excemption handling 
+try:
+    n=int(input())
+    d=int(input())
+    result=n/d
+except ZeroDivisionError as e:
+    print(e,'zero division')
+except ValueError as e:
+    print(e)
+except Exception as e:
+    print(e)
+else:
+    print(result)
+finally:
+    print('Always executes')
